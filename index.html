@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Data API Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="flex-container">
+    <div class="div one"> 
+      <div id="title">
+        <p class="bold">Choose a Country:</p>
+        <select id="name">
+          <option value="" disabled selected>Select Country From List</option>
+          <!-- You already pasted the full country list here -->
+          <!-- I recommend keeping the list but trimming it down in README instructions -->
+          <option value="Afghanistan">Afghanistan</option>
+          <option value="Albania">Albania</option>
+          <option value="Algeria">Algeria</option>
+          <option value="United States of America">United States of America</option>
+          <option value="India">India</option>
+          <option value="China">China</option>
+          <option value="Brazil">Brazil</option>
+          <option value="France">France</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="Japan">Japan</option>
+          <!-- etc -->
+        </select>
+        <button id="button" onclick="selectCountry()">Select Country</button>
+      </div>
+    </div>
+
+    <div class="div ab"> 
+      <div id="con">
+        <p class="bold">Country Name:</p>
+        <p id="countryName"></p>
+      </div>
+    </div>
+  
+    <div class="div two"> 
+      <div class="div twoa">
+        <div id="cap">
+          <p class="bold">Population:</p>
+          <p id="population"></p>
+        </div>
+        <div id="cap">
+          <p class="bold">Region:</p>
+          <p id="time"></p>
+        </div>
+      </div>
+  
+      <div class="div twob">
+        <img id="img1">
+      </div>
+     
+      <div class="div twoc">
+        <div id="cap">
+          <p class="bold">Capital:</p>
+          <p id="capital"></p>
+        </div>
+        <div id="cap">
+          <p class="bold">Calling Code: (+)</p>
+          <p id="call"></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="div three"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
